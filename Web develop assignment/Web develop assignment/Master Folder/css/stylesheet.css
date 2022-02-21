@@ -1,0 +1,405 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:'Bellota Text', Tahoma, Geneva, Verdana, sans-serif;/*font for all paragrage*/
+    font-weight: 600;
+    
+    
+  }
+ body{
+
+     background-image: url("background//bb.jpg") !important;
+     margin: 0px;
+     background: no-repeat center fixed;
+     background-size: cover;
+     
+  }
+
+ 
+  #nav-bar{
+      position: sticky;
+      top:0;
+      z-index:99999999;
+  }
+  .navbar{
+      background-image: linear-gradient(to right,rgb(216, 234, 243),rgb(118, 182, 213));
+      padding: 0 !important;
+
+  }
+  .navbar-brand{
+      padding-left:20px;
+  }
+  .navbar-nav{
+      padding:0px 20px;
+  }
+  .navbar-nav li{
+    padding:0px 10px;
+}
+
+.navbar-nav li a{
+    color:#fff;
+    font-weight:500;
+}
+
+.navbar-nav li a:hover{
+    color: silver;
+    font-weight:600;
+  }
+
+/*----------------------------------------------------------Traniing section---------------------------------------------------*/
+
+#traning{
+    padding-top:5%;
+    
+}
+h1.Traning-title{
+    color: black;
+    font-weight: 600; 
+    font-size: 60px;
+    font-family:McLaren;
+}
+.training-container{
+    padding-bottom: 50;
+}
+
+.Traning-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img_cartoondog{
+padding-left:100px ;
+}
+
+.basic{
+    padding-top:170px;
+}
+.basic h1{
+    color: black;
+    font-weight: 600; 
+    font-size: 40px;
+    font-family: McLaren;
+
+}
+.training-container h3{
+    color: black;
+    font-weight: 600; 
+    font-size: 25px;
+    font-family:McLaren; 
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.sit-video{
+    padding-top:30px;
+}
+.sit{
+    padding-top:50px;
+    border: 2px solid black;
+    border-radius: 8px;
+    border-style: dashed;
+}
+.sit img{
+    float:center;
+    padding-left:40%
+}
+
+.come{
+    margin-top: 20px;
+    padding:50px;
+    border: 0.3em solid black;
+    border-radius: 8px;
+    border-style: double;
+}
+
+.come-video{
+    padding-top:100px;
+}
+
+.come img{
+    padding-left:40%
+}
+.stay{
+    margin-top: 20px;
+    padding:50px;
+    padding-bottom: 10px;
+    border: 0.3em solid black;
+    border-radius: 8px;
+    border-style: dotted;
+}
+
+.stay-video{
+    padding-top:120px;
+}
+.stay img{
+    padding-left:60%;
+}
+
+.drop{    
+    margin-top: 20px;
+    padding:50px;
+    padding-bottom: 10px;
+    border: 0.3em solid black;
+    border-radius: 8px;
+
+}
+.drop-video{
+    padding-top:70px;
+}
+.drop img{
+    padding-left:10%;
+}
+/*-------------------------------------------------------behaviour------------------------------------------------------------------------------------------*/
+#behaviour{
+    background-image: linear-gradient(rgba(36, 95, 151, 0.2),rgba(36, 95, 151, 0.2));/*add lineaer gradient to backgroung to make page look seperate */
+    width: 100%;
+    margin-top:200px;
+    
+}
+
+.behave-container{
+    
+    padding-bottom: 50;
+}
+.behave-container h1{
+    color: black;
+    font-weight: 600; 
+    font-size: 60px;
+    font-family: McLaren; 
+    text-align: center;}
+
+#try{
+    background-image: linear-gradient(rgba(36, 95, 151, 0.2),rgba(36, 95, 151, 0.2));/*add lineaer gradient to backgroung to make page look seperate */
+    width: 100%;
+    padding-bottom: 80px;
+}
+.try-container{
+    padding-bottom: 50;
+    padding-top: 50px;
+}
+
+
+#headingBark{
+    background-color:rgb(107, 195, 179);
+}
+#collapseOne{
+    background-color:rgb(181, 230, 211);
+}
+#headingJunp{
+    background-color:rgb(166, 135, 197);
+}
+#collapseTwo{
+    background-color:rgb(230, 221, 238);	
+}
+#headingDig{
+    background-color:rgb(254, 168, 164);
+}
+#collapseThree{
+    background-color:rgb(255, 230, 230);
+}
+#headingPee{
+    background-color:rgb(255, 223, 23);
+}
+#collapseFour{
+    background-color:rgb(255, 245, 204);
+}
+
+.try-container h1{
+    color: black;
+    font-weight: 600; 
+    font-size: 60px;
+    font-family: McLaren; 
+    text-align: center;
+}
+.try-container h3{
+    color: black;
+    font-weight: 600; 
+    font-size: 30px;
+    font-family: McLaren;
+}
+.try-container h5{
+    color: black;
+    font-weight: 800; 
+    font-size: 20px; 
+    text-decoration: underline;
+}
+.behave-container p{
+    padding-top:20px;
+}
+
+#imgbehav{
+    padding-left:30%; 
+    padding-top:7%;
+}
+
+
+#imgbark{
+    padding-right:10%; 
+    float:right;
+}
+
+.bark-button{
+    background-color:none;
+    border: none;
+    color: gray;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+#imgjump{
+    padding-top:60px
+}
+.jump-button{
+    color: gray;
+    padding: 10px 15px;
+}
+
+#imgdig{
+    float:right;
+}
+
+#imgpee{padding-top:100px}
+.pee-button{
+    background-color:none;
+    border: none;
+    color: gray;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+/*----------------------------------------------------------------Paws Care------------------------------------------------------------------------------*/
+#care{
+    margin-top: 200px;
+}
+.ccare{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.care-intro{
+    font-size: 20px;
+    font-family: 'Bellota Text';
+}
+.ccare img{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left:23%;
+}
+.ccare h1{
+    color: black;
+    font-weight: 600; 
+    font-size: 60px;
+    font-family: McLaren; 
+    text-align: center;}
+
+
+.ccare h4{
+    font-family: McLaren;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline wavy rgb(0, 115, 153) ;
+}
+
+.ccare h5{
+    color: black;font-weight: 600; 
+    font-size: 20px;  
+    text-decoration: underline rgb(0, 115, 153);
+    padding-left:29px;
+}
+
+.ccare p{
+    padding:20px;
+}
+
+.huskie{
+    height:900px;
+    border: 0.2em dotted black;
+    border-radius: 8px;
+    margin: 10px 0px;
+}
+ 
+.beagle{
+    height:900px;
+    border: none;
+    margin: 10px 20px;
+}
+.labrador{
+    height:900px;
+    border: 0.2em dotted black;
+    border-radius: 8px;
+    margin: 10px 0px;
+}
+.golden{
+    height:900px;
+    border: none;
+    margin: 10px 0px;
+
+}
+.pug{
+    height:900px;
+    border: 0.2em dotted black;
+    border-radius: 8px;
+    margin: 10px 20px;
+
+}
+.shepherd{
+    height:900px;
+    border: none;
+    margin: 10px 0px;
+
+}
+.rottweiler{
+    height:900px;
+    border: 0.2em dotted black;
+    border-radius: 8px;
+    margin: 10px 0px;
+
+}
+.corgi{
+    height:900px;
+    border: none;
+    margin: 10px 20px;
+
+}
+.dachshund{
+    height:900px;
+    border: 0.2em dotted black;
+    border-radius: 8px;
+    margin: 10px 0px;
+}
+.fa-heart{
+    color:red;
+}
+.fa-bath{
+    color: rgb(0, 122, 204);
+}
+.fa-snowflake{color: rgb(230, 255, 255);}
+.fa-drumstick-bite{color: brown;}
+.fa-home{color: rgb(146, 29, 185);}
+.fa-moon{color: yellow;}
+.fa-exclamation{color: orange;}
+.fa-balance-scale{color:rgb(43, 170, 43);}
+
+
+
+.footer-main{
+    background-color: rgb(143, 173, 229,0.7);
+    padding: 20px;
+    text-align: center;
+}
+.footer-main a{
+    color: white;
+}
+
+#end{
+    background-color: black;
+    color: white;
+    font-size: x-small;
+    text-align: center;
+}

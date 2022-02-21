@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/contact.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <div class=" row justify-content-end">
+          
+            <ul>
+              <li ><a href="Home.html">Home</a></li>
+              <li><a href="index1.html#linear-gradient#training">Basic Training</a></li>
+              <li><a href="index1.html#behaviour">Behaviour Solution</a></li>
+              <li><a href="index1.html#care">Paws care</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="container">
+        <div class=" contact-title">
+            <h1>Contact Form</h1>
+        </div>
+        <div class="row justify-content-center contact-form">
+            <form id="contact-form" method="POST" action="css/contact.php"><!--this action will be link with the PHP file -->
+                <input name="name" type="text" class="format-control" placeholder="Your name" required>
+                <br>
+                <input name="email" type="text" class="format-control" placeholder="Your email" required>
+                <br>
+                <textarea name="message" class="format-control" placeholder="Message" row="4" required></textarea><br>
+                <input type="submit" class="format-control submit" value="SEND MASSAGE">
+            </form>
+        </div>
+        </div>
+
+    </body>
+</html>
+
